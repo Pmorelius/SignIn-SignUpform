@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/2. Favicon-Logo-new_Pmorelius2023.png" type="image/x-icon">
+    <title>Sign in & Sign up form</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                    <form action="index.html" autocomplete="off" class="sign-in-form">
+                        <div class="logo">
+                            <img src="./img/logo.svg" alt="easyclass">
+                            
+                        </div>
+
+                        <div class="heading">
+                            <h2>How can we help?</h2>
+                            <h6>Not registred yet?</h6>
+                            <a href="#" class="toggle">Sign up</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="name" 
+                                    required
+                                />
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="pass" 
+                                    minlength="4" 
+                                    required
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="pass" 
+                                    
+                                />
+                                <label for="name">Password</label>
+                            </div>
+
+                            <input type="submit" value="Sign In" class="sign-btn" />
+
+                            <p class="text">
+                                Forgotten your password or you login datails?
+                                <a href="#">Get help</a> signing in.
+                            </p>
+                        </div>
+                    </form>
+
+                    <form action="index.html" autocomplete="off" class="sign-up-form">
+                        <div class="logo">
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+
+                        <div class="heading">
+                            <h2>Let us begin</h2>
+                            <h6>Already have an account?</h6>
+                            <a href="#" class="toggle">Sign in</a>
+                        </div>
+
+                        <div class="actual-form">
+
+                            <div class="input-wrap">
+                                <input type="text" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="name" 
+                                    required
+                                />
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="email" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="email" 
+                                    required
+                                />
+                                <label for="name">Email</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="pass" 
+                                    minlength="4" 
+                                    required
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="pass" 
+                                    
+                                />
+                                <label for="name">Password</label>
+                            </div>
+
+                            <input type="submit" value="Sign Up" class="sign-btn" />
+
+                            <p class="text">
+                                By signing up, I agree to the
+                                <a href="#">Terms of Services</a> and
+                                <a href="#">Privacy Policy.</a>
+                            </p>
+                        </div>
+                    </form>   
+                </div>
+
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="./img/image1.png" alt="img-1" class="image img-1 show">
+                        <img src="./img/image2.png" alt="img-2" class="image img-2">
+                        <img src="./img/image3.png" alt="img-3" class="image img-3">
+                    </div>
+
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2>Call us, we solve it!</h2>
+                                <h2>We solve problems instantly!</h2>
+                                <h2>Your computer will thank you!</h2>
+                            </div>
+                        </div>
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript File -->
+    <script src="app.js"></script>
+</body>
+</html>
